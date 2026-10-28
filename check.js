@@ -132,7 +132,7 @@ async function runChecks() {
 }
 
 function main() {
-  const server = spawn('node', [path.join(__dirname, 'server.js')], {
+  const server = spawn('node', [path.join(__dirname, 'src/server.js')], {
     stdio: ['ignore', 'pipe', 'pipe'],
   });
 

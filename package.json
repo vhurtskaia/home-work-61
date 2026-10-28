@@ -2,10 +2,10 @@
   "name": "home-work-61",
   "version": "1.0.0",
   "description": "Express сервер з MVC архітектурою та мідлварами логування, автентифікації, валідації, авторизації та керування сесіями",
-  "main": "server.js",
+  "main": "src/server.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "node --watch server.js",
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
     "check": "node check.js"
   },
   "license": "MIT",

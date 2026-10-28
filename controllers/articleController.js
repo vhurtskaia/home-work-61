@@ -1,4 +1,4 @@
-const ArticleModel = require('../models/articleModel');
+const ArticleModel = require('../src/models/articleModel');
 
 function getArticles(req, res) {
   const articles = ArticleModel.findAll();

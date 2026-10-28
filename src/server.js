@@ -1,12 +1,12 @@
 const express = require('express');
 
-const logRequests = require('./middlewares/logger');
-const sessionMiddleware = require('./middlewares/session');
-const { errorHandler, notFoundHandler } = require('./middlewares/errorHandler');
+const logRequests = require('../middlewares/logger');
+const sessionMiddleware = require('../middlewares/session');
+const { errorHandler, notFoundHandler } = require('../middlewares/errorHandler');
 
-const indexRouter = require('./routes/index');
-const usersRouter = require('./routes/users');
-const articlesRouter = require('./routes/articles');
+const indexRouter = require('../routes');
+const usersRouter = require('../routes/users');
+const articlesRouter = require('../routes/articles');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
